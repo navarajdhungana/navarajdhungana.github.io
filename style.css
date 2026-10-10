@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b0d10;
+    color: #e6edf3;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 680px;
+    width: 100%;
+}
+
+/* Hero Header */
+.hero {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(31, 111, 235, 0.15);
+    color: #58a6ff;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border: 1px solid rgba(56, 139, 253, 0.3);
+    margin-bottom: 16px;
+}
+
+.dot {
+    width: 7px;
+    height: 7px;
+    background-color: #3fb950;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+}
+
+.subtitle {
+    color: #9198a1;
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.location {
+    color: #8b949e;
+    font-size: 0.9rem;
+    margin-bottom: 24px;
+}
+
+/* Call to Action Buttons */
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background-color: #f0f6fc;
+    color: #0d1117;
+}
+
+.btn-primary:hover {
+    background-color: #ffffff;
+}
+
+.btn-secondary {
+    background-color: #21262d;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+}
+
+.btn-secondary:hover {
+    background-color: #30363d;
+    border-color: #8b949e;
+}
+
+/* Sections & Cards */
+.section {
+    margin-top: 36px;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #f0f6fc;
+    margin-bottom: 16px;
+}
+
+.card {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.card-icon {
+    font-size: 1.3rem;
+    color: #58a6ff;
+    background: #21262d;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-content h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.meta {
+    color: #8b949e;
+    font-size: 0.85rem;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+.desc {
+    color: #c9d1d9;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
